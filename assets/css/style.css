@@ -1,0 +1,199 @@
+﻿body {
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+.pad-top {
+    padding-top:60px;
+}
+.pad-top-more {
+    padding-top:90px;
+}
+.text-center {
+    text-align:center;
+}
+/* TAMBAHAN PADDING PADA SECTION TEMPLATE */
+section {
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+/* CSS3 PADDING NAV BAR */
+.navbar {
+    padding:25px;
+     -webkit-transition: background .8s ease-out,padding .8s ease-out;
+        -moz-transition: background .8s ease-out,padding .8s ease-out;
+        transition: background .8s ease-out,padding .8s ease-out;
+}
+
+/* ---CLASS UTK HAPUS PADDING PADA NAV BAR---
+
+.navbar-pad-original {
+      padding:5px;
+}
+
+*/
+
+/*========================================
+    NAV BAR
+    ======================================*/
+.navbar-inverse .navbar-nav > li > a {
+color: #000;
+}
+.navbar-inverse {
+background-color: #FFF;
+border-color: #26c6da;
+font-size: 25px;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+color: #000000;
+background-color: transparent;
+}
+.navbar-inverse .navbar-brand {
+color: #000;
+font-size: 27px;
+font-weight: 900;
+}
+.navbar-inverse:hover .navbar-brand:hover {
+color: #000;
+}
+.navbar-toggle {
+    background-color: black;
+}
+
+/*CHANGING COLOR  SCROLLSPY ON LINK ACTIVE  */
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+color: #fff;
+background-color: #00897b;
+}
+
+ /* #7eb9f8; */
+
+/*========================================
+    HOME SECTION
+    ======================================*/
+    
+#home {
+min-height:700px;
+background-color:#00897b;
+}
+#home h1,#home h3 {
+    color:#fff;
+    text-transform:uppercase;
+}
+#home a i {
+    display:table;
+    font-size:150px;  
+}
+
+
+/* LOGO ~ N ~ */
+.outline-icon {
+background-color: transparent;
+border: 3px solid #b2ebf2;
+}
+
+.text-icon {
+width: 144px;
+height: 144px;
+font-size: 108px;
+line-height: 140px;
+text-shadow: 0 1px 0 rgba(0,0,0,.1);
+}
+
+.tampil-icon {
+margin: 0 auto 60px;
+display: block;
+font-weight: 500;
+color: #fff;
+text-align: center;
+cursor: default;
+background-color: #00897b;
+border-radius: 15%;
+cursor: default;
+}
+
+.quotes {
+    font-size: 28px;
+}
+
+
+/*========================================
+    ABOUT SECTION
+    ======================================*/
+#about {
+background-color: #00897b;
+color: #fff;
+min-height:700px;
+}
+.panel > .panel-heading {
+position: relative;
+padding: 15px;
+}
+.panel-title > a.collapsed:after {
+content: '+';
+position: absolute;
+right: 24px;
+}
+
+.panel-title > a:after {
+ content: '-';
+position: absolute;
+right: 24px;
+
+}
+.panel {
+color: #000;
+}
+
+ /*========================================
+    PORTFOLIO SECTION
+    ======================================*/
+ 
+
+#portfolio {
+    z-index: 2;
+    
+}
+
+.portfolio-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.modal-body span {
+    cursor:pointer;
+    color:#66B8F0;
+}
+/*========================================
+    CONTACT SECTION
+    ======================================*/
+#contact {
+    min-height:400px;
+    }
+#contact .form-control {
+    height:60px;
+}
+/*========================================
+    FOOTER SECTION
+    ======================================*/
+#footer {
+
+background-color: #428bca;;
+color: #fff;
+padding: 20px 50px 20px 50px;
+text-align: right;
+border-top: 1px solid #7eb9f8;
+}
